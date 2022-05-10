@@ -1,0 +1,375 @@
+html, body, #app, #app>div {
+  height: 100vh;
+  width: 100%;
+  background-color: #1f1c2a;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 2rem;
+  justify-content: center;
+}
+.form {
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 100%;
+}
+
+.title {
+  
+  color: #b0b0b8;
+  font-family: Arial;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.subtitle {
+  margin-left: 25%;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.input {
+  margin-left: 25%;
+  display: block;
+  background-color: #000000;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  height: 10%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 50%;
+}
+.descInput {
+  margin-left: 25%;
+  display: block;
+  background-color: #000000;
+  border-radius: 25px;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  height: 10%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 50%;
+  height: 45%;
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.dateInput{
+  display: block;
+  margin-left: 25%;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  height: 10%;
+  width: 50%;
+  font-size: 18px;
+}
+.submit {
+  margin-left: 25%;
+  margin-top: 15px;
+  display: block;
+  background-color: #000000;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  outline: 0;
+  text-align: center;
+  width: 50%;
+}
+.remaining{
+  margin-left: 25%;
+  font-size: 10px;
+  color: #e30237;
+}
+
+.buttonLink {
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+  background:#000000;
+  padding: 10px 20px 10px 20px;
+  border: 5px solid #32353b;
+  text-decoration: none;
+}
+.imageLink {
+  height: 20px;
+  width: 20px;
+}
+.nav{
+  background-color: #171617;
+  margin-bottom: 20px;
+}
+.card {
+  overflow: hidden;
+  background-color: #242837;
+  color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card__btn{
+  color: #ffffff;
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  border: 5px solid #32353b;
+  border-radius: 20px;
+  background: transparent;
+}
+
+.card__description{
+  
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.card__title{
+  padding: 5px;
+  font-size: 25px;
+  text-align: left;
+}
+
+.manageButton{
+  color: #efefee;
+  padding: 1rem;
+  margin-left: 25%;
+  font-family: inherit;
+  font-size: 10px;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  background: #000000;
+  border: 5px solid #32353b;
+  width: 50%;
+}
+
+.details{
+  margin-left: 12.5%;
+  background-color: #000000;
+  width: 75%;
+  border: 10px solid #000000;
+  border-radius: 20px;
+}
+.detailTitle{
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+}
+.detailDesc{
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+}
+.bar{
+  background-color: #32353b;
+  width: 50%;
+  margin-left: 25%;
+}
+.detaiInput{
+  display: block;
+  background-color: #000000;
+  border-radius: 25px;
+  border: 5px solid #32353b;
+  color: #ffffff;
+  font-size: 18px;
+  height: 10%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 50%;
+  margin-left: 25%;
+}
+.detailForm{
+  padding: 50px;
+}
+.detailSub{
+  margin-left: 25%;
+  color: #b0b0b8;
+}
+.detailSubmit{
+  color: #efefee;
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 20px;
+  border: 5px solid #32353b;
+  background: #000000;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.follow{
+  border: 5px solid #32353b;
+  background: #000000;	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:8px 32px;
+	text-decoration:none;
+  margin-left: 85%;
+}
+
+.info{
+  font-size: 32;
+  text-align: center;
+  color:#ffffff;
+
+}
+
+.commentInput {
+  margin-left: 25%;
+  display: block;
+  border: 5px  solid #32353b;
+  background-color: #000000;
+  color: #ffffff;
+}
+.comments{
+  margin-top: 50px;
+  padding: 10px;
+}
+.comment{
+  color: #ffffff;
+  font-size: 15px;
+}
+.commentAuthor{
+  color: #ffffff;
+  font-size: 10px;
+
+}
+.commentContainer{
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 3px  solid #32353b;
+  padding: 10px;
+}
+.followers{
+  margin-left: 89%;
+  color: #ffffff;
+  font-size: 10px;
+}
+.logos{
+  margin-left: 500px;
+  margin-right: 50px;
+}
+
+.userLinks{
+  text-decoration: none;
+  padding-left: 15px;
+  color: #ffffff;
+}
+.userLinks:hover{
+  text-decoration: none;
+  padding-left: 15px;
+  color: #11cc0b;
+}
+.drop{
+  background-color: #32353b;
+}
+.pageTitle{
+  text-align: center;
+  font-size: 48px;
+  color: #ffffff;
+}
+.subtitle{
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.search{
+  border: 5px  solid #32353b;
+  background-color: #000000;
+  color: #ffffff;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.loader{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.sort{
+  border: 5px  solid #32353b;
+  background-color: #000000;
+  color: #ffffff;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+option:hover{
+  background-color: #000000;
+
+}
+.sortItem:hover {
+  box-shadow: 0 0 10px 100px #000 inset;
+}
+.deleteButton{
+  color: #efefee;
+  margin-left: 80%;
+  padding: 5px;
+  font-family: inherit;
+  font-size: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #000000;
+  border: 5px solid #32353b;
+}
+
+.trending{
+  border: 5px  solid #32353b;
+  background-color: #000000;
+  color: #ffffff;
+  width: 25%;
+  margin-left: 39%;
+  margin-bottom: 50px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.links{
+  text-decoration: none;
+  color: green;
+}
+
+.generate{
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  border: 5px #11cc0b;
+}
